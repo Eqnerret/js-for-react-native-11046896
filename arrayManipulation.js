@@ -10,7 +10,19 @@ function processArray(arr) {
     });
   }
   
+  function formatArrayStrings(stringArr, numArr) {
+    return stringArr.map((str, index) => {
+      if (numArr[index] % 2 === 0) {
+        return str.toUpperCase();
+      } else {
+        return str.toLowerCase();
+      }
+    });
+  }
+  
   // Example usage:
-  let numbers = [1, 2, 3, 4, 5, 6];
-  let result = processArray(numbers);
-  console.log(result); // Output: [3, 4, 9, 16, 15, 36]
+  let strings = ['Hello', 'World', 'JavaScript', 'is', 'fun'];
+  let numbers = [1, 2, 3, 4, 5];
+  let processedNumbers = processArray(numbers);
+  let formattedStrings = formatArrayStrings(strings, processedNumbers);
+  console.log(formattedStrings); // Output: ["hello", "WORLD", "javascript", "IS", "fun"]
