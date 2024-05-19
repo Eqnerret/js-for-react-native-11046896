@@ -8,7 +8,7 @@ This repository contains solutions for a set of activities that rely on JavaScri
 
 ### Task 1: Array Manipulation
 
-- **Description:**  The function processArray accepts an array of numbers as input and generates a new array based on certain rules. In the resulting array, every even number is squared, and every odd number is tripled.
+- **Description:**  The function "processArray" accepts an array of numbers as input and generates a new array based on certain rules. In the resulting array, every even number is squared, and every odd number is tripled.
 
 ### Task 2: Formatting Array Strings
 
@@ -17,4 +17,4 @@ This repository contains solutions for a set of activities that rely on JavaScri
 
 ### Task 3: Creating User Profiles
 
-- **Description:** TThe function createUserProfiles accepts two arrays: one containing original names and another containing modified names from Task 2. It returns an array of objects, where each object includes the original name, the modified name, and an auto-incremented ID starting from 1.
+- **Description:** The function "createUserProfiles" accepts two arrays: one containing original names and another containing modified names from Task 2. It returns an array of objects, where each object includes the original name, the modified name, and an auto-incremented ID starting from 1.
