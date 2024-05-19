@@ -25,4 +25,4 @@ function processArray(arr) {
   let numbers = [1, 2, 3, 4, 5];
   let processedNumbers = processArray(numbers);
   let formattedStrings = formatArrayStrings(strings, processedNumbers);
-  console.log(formattedStrings); // Output: ["hello", "WORLD", "javascript", "IS", "fun"]
+  console.log(formattedStrings); // Output: ["hello", "WORLD", "javascript", "IS", "fun"
